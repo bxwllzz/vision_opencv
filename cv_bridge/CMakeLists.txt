@@ -19,6 +19,8 @@ find_package(OpenCV 3 REQUIRED
     opencv_imgproc
     opencv_imgcodecs
   CONFIG
+  PATHS /usr/local
+  NO_DEFAULT_PATH
 )
 
 catkin_package(
